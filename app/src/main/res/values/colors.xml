@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="silver">#C0C0C0</color>
+    <color name="white">#ffffff</color>
+    <color name="black_o">#66000000</color>
+    <color name="white_o">#99FFFFFF</color>
+    <color name="white_ho">#40FFFFFF</color>
+    <color name="black_ho">#40626a6d</color>
+    <color name="white_divider">#99FFFFFF</color>
+    <color name="colorPrimary">#66000000</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="primary_material_light">#025660</color>
+</resources>
+

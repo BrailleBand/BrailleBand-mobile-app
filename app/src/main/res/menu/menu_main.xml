@@ -1,0 +1,63 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.hareenudayanath.appbar.CommunicationActivity">
+    <!--<item-->
+        <!--android:id="@+id/start"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="Start"-->
+        <!--app:showAsAction="never" />-->
+
+    <!--<item-->
+        <!--android:id="@+id/stop"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="Stop"-->
+        <!--app:showAsAction="never" />-->
+    <!--<item-->
+        <!--android:id="@+id/sms_settings"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="SMS Settings"-->
+        <!--app:showAsAction="never" >-->
+
+
+        <!--<RadioGroup android:checkableBehavior="single"-->
+            <!--android:id="@+id/radio"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical">-->
+            <!--<RadioButton-->
+                <!--android:id="@+id/radio_auto"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:title="Automatically Send"-->
+                <!--android:onClick="onRadioButtonClicked"/>-->
+            <!--<RadioButton-->
+                <!--android:id="@+id/radio_n_auto"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:title="Manually Send"-->
+                <!--android:onClick="onRadioButtonClicked"/>-->
+        <!--</RadioGroup>-->
+
+
+    <!--</item>-->
+
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/auto_send"
+            android:title="Automatically Send   "
+
+            />
+        <item
+            android:id="@+id/manual_send"
+            android:title="Manually Send    "
+            />
+    </group>
+
+    <item
+        android:id="@+id/check_sensors"
+        android:title="Check Sensors   "/>
+
+</menu>
